@@ -1,46 +1,48 @@
-# Getting Started with Create React App
+# LOL API
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Routing Values
 
-## Available Scripts
+kr.api.riotgames.com
+asia.api.riotgames.com
 
-In the project directory, you can run:
+## General
 
-### `yarn start`
+- season : 시즌정보
+- queueId : 게임모드 종류 (랭크, URF, 사설게임 ...등)
+- mapId : 맵 종류
+- gameMode : 게임모드 종류
+- gameType : 게임 종류 (튜토리얼, 커스텀매치, 그 외)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Rank Info
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+-
 
-### `yarn test`
+## Data Dragon
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- versions
+- regions
+- data & assets : spells, champions, items 데이터
+  - data files : version + language code
 
-### `yarn build`
+## Champions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 전체 챔피언.json
+- 개별 챔피언.json
+- 추가 설명 데이터
+- 스펠 cost 데이터
+- splash assets : 스킨별 배경사진
+- champion loading screen assets : 로딩화면에 보이는 챔피언 사진
+- champion passive assets : 챔피언 패시브 아이콘
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Items
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 모든 아이템 데이터
+- 아이템 개별 이미지 제공
 
-### `yarn eject`
+## Other
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- summoner spells
+- profile icons
+- minmaps
+- sprites : 스펠이미지들
+- socreboard icons : 스코어 보드에 쓰이는 작은 아이콘들
